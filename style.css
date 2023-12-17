@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+ :root{
+    --primary-color:#fff;
+    --secondary-color:#000;
+ }
+
+ .dark_mode{
+    --primary-color:#000;
+    --secondary-color:#fff;
+ }
+
+
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    margin: 3rem;
+    padding: 50px;
+    transition: background-color 0.1s;
+  }
+
+  .blog-post > h1{
+    color: var(--secondary-color) !important;
+  }
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.blog-post{
+    margin-left: 2%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.body background{
+    filter: brightness(10%);
+}
+
+#Theme{
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    width: 50px;
+    margin: 20px;
+}
+
+#picture{
+    color:var(--secondary-color);
+}
